@@ -900,3 +900,67 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3rem;
   }
 }
+
+/* BLOG GC V3 */
+
+.post-container {
+  padding: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.post-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-container h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+.post-container p {
+  margin: 1.2rem 0;
+}
+
+.post-container a {
+  color: #0077ff;
+  text-decoration: none;
+  border-bottom: 1px solid #0077ff33;
+}
+
+.post-container a:hover {
+  border-bottom: 1px solid #0077ff;
+}
+
+.post-container blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 4px solid #333;
+  font-style: italic;
+}
+
+.post-container code {
+  background: #f1f1f1;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: Menlo, Consolas, monospace;
+}
+
+.post-container pre {
+  background: #111;
+  color: #eee;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
